@@ -11,9 +11,7 @@ void CocktailSort(int a[], int n)
 
 	while (swapped)
 	{
-		// reset the swapped flag on entering
-		// the loop, because it might be true from
-		// a previous iteration.
+		
 		swapped = false;
 
 		// loop from left to right same as
